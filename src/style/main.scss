@@ -16,7 +16,6 @@ body {
   width: 66vw;
   display: grid;
   align-content: space-around;
-  justify-items: stretch;
 }
 
 .logo-main,
@@ -25,7 +24,15 @@ body {
   justify-items: center;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 $gray-color : #666666;
 $gray-two: #b3b3b3;
+$blue-main: #0079ff;
 
 @import './searchBar.scss';
+@import './recentPosts.scss';
