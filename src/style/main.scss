@@ -11,12 +11,6 @@ body {
   justify-content: center;
 }
 
-.home {
-  height : 100vh;
-  width: 66vw;
-  display: grid;
-  align-content: space-around;
-}
 
 .logo-main,
 .recent-posts {
@@ -30,9 +24,9 @@ ul {
   list-style-type: none;
 }
 
-$gray-color : #666666;
-$gray-two: #b3b3b3;
-$blue-main: #0079ff;
 
+@import './mixins.scss';
 @import './searchBar.scss';
 @import './recentPosts.scss';
+@import './home.scss';
+@import './results.scss';
