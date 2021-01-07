@@ -1,6 +1,9 @@
-.post-topic {
-  margin: 9px;
-}
+@import './mixins.scss';
+@import './searchBar.scss';
+@import './recentPosts.scss';
+@import './post.scss';
+@import './home.scss';
+@import './results.scss';
 
 body {
   font-family: 'Lato', sans-serif;
@@ -24,10 +27,9 @@ ul {
   list-style-type: none;
 }
 
+.no-post-links {
+  color: $gray-color;
+  font-size: 14px;
+  line-height: 17px;
+}
 
-@import './mixins.scss';
-@import './searchBar.scss';
-@import './recentPosts.scss';
-@import './post.scss';
-@import './home.scss';
-@import './results.scss';
